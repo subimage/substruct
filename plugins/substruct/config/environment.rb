@@ -12,9 +12,6 @@ require File.join(File.dirname(__FILE__), 'boot')
 require File.join(File.dirname(__FILE__), '../vendor/plugins/engines/boot')
 
 Rails::Initializer.run do |config|
-  # Necessary for us to run legacy engine migrations
-  # DO NOT CHANGE THIS
-  config.active_record.timestamped_migrations = false
   # Settings in config/environments/* take precedence over those specified here
   config.load_paths += %W( #{RAILS_ROOT}/vendor/plugins/substruct )
   config.action_controller.session_store = :active_record_store
