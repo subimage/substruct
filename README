@@ -1,11 +1,11 @@
 = Project Information =
 
-This is an experimental Git branch of the Substruct project, hosted on GoogleCode.
+This is an experimental Git branch of the Substruct project hosted on GoogleCode.
 
 I'm evaluating the feasibility of moving the project to GitHub.
 
 At the moment, that hinges on...
- * Me becoming comfortable with git
+ * Myself to become comfortable with git
  * Moving the issue history over to GitHub
  * Moving the wiki over to GitHub
  * Coming up with a release strategy. (The current one is based heavily on SVN)
@@ -18,7 +18,7 @@ At the moment, that hinges on...
 _Substruct is not meant for end users or novices to install_.
 
 This is a software program made for professional web developers.
-If you don't have experience developing software you could be extremely frustrated by this process.
+If you don't have experience developing software; you could be extremely frustrated by this process.
 
 *These directions assume you already have a working Rails hosting environment. This means...*
  * A way to run Rails
@@ -78,7 +78,7 @@ For more information on the database.yml file, visit this url: http://wiki.rubyo
 === 4. Compile vendored gems ===
 
 Substruct stores required gem files in the vendor/gems folder for ease of installation.
-This means you don't have to require the gems, but you still have to build them for your native platform.
+This means you don't require the gems, but you still have to build them for your native platform.
 
 Run the following command.
 
